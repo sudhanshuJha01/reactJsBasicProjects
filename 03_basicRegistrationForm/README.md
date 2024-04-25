@@ -1,5 +1,9 @@
 # React + Vite
 
+![Altimg](./src/assets/img/img1.png)
+![Altimg](./src/assets/img/img2.png)
+![ALtImg](./src/assets/img/img3.png)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
