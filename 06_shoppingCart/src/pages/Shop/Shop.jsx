@@ -24,7 +24,7 @@ function Shop() {
                                     <p className='font-medium'>{product.category}</p>
                                     <img className='w-36 m-7 rounded-xl font-medium bg-slate-200' src={product.image} alt={product.title} />
                                     <p className='text-xl'>{`Price  $${product.price}`}</p>
-                                    <button onClick={handleAddInCart} className='border-1 bg-slate-600 rounded-md p-2 hover:bg-slate-800 text-white font-medium'>Add to Cart</button>
+                                    <button className='border-1 bg-slate-600 rounded-md p-2 hover:bg-slate-800 text-white font-medium'>Add to Cart</button>
                                 </article>
                             </li>
                         ))}

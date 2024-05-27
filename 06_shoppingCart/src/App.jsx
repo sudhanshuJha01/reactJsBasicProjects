@@ -6,15 +6,12 @@ import Shop from './pages/Shop/Shop'
 
 function App() {
   
-function addInCart(){
-
-}
   return (
     <>
       <Router>
         <NavBar />
           <Routes >
-              <Route path='/' element={<Shop addInCart={addInCart}/>} />
+              <Route path='/' element={<Shop />} />
               <Route path='/cart'  element={<Cart/>} />
           </Routes>
       </Router>
