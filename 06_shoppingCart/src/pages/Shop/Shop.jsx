@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import useShop from '../../context/shopContext';
 const url = `https://fakestoreapi.com/products/`;
 
-function Shop(props) {
-    const {products , setProducts , setItems , handleAddInCart} = props;
+function Shop() {
+    const {products , setProducts , setItems , handleAddInCart} = useShop();
     
 
     useEffect(() => {

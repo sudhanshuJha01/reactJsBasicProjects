@@ -1,6 +1,8 @@
 import React from 'react'
+import useShop from '../../context/shopContext'
 
-function Cart({items}) {
+function Cart() {
+  const {items} = useShop();
   return (
     <>
     <div className='bg-slate-600 m-0'>
